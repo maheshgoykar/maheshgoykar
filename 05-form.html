@@ -10,13 +10,22 @@
     <p>Please drop us a message by filling out this form,and we will get back to you within 2 working days </p>
     <p>field are marked * are required</p>
     <form>
-        <label>Your Name *</label><br>
+        <label>Your Name</label>
+        <label style="color:red">*</label><br>
         <input type="text" required id="fname" name="fname" placeholder="Name"><br><br>
-        <label>Your Email *</label><br>
+        <label>Your Email</label>
+        <label style="color:red">*</label><br>
         <input type="text" required id="email" name="email" placeholder="Email"><br><br>
-        <label>What are you looking to build? *</label><br>
-        <input type="text" requiredid="lname" name="lname" Placeholder="--Choose one--"><br><br>
-        <label>Platforms you plan to support *</label><br>
+        <label>What are you looking to build?</label>
+        <label style="color:red">*</label><br>
+        <select name="info" id="info">
+        <option value="--Choose one --">-- Choose one --</option>
+        <option value="Blog">Blog</option>
+        <option value="Online store">Online store</option>
+        <option value="Game">Game</option>
+        </select><br><br>
+        <label>Platforms you plan to support</label>
+        <label style="color:red">*</label><br>
         <input type="checkbox" required>
         <label>web</label>
         <input type="checkbox">
